@@ -1,5 +1,5 @@
 
-# SmartDeal
+# SmartLead
 
 **Description**
 
