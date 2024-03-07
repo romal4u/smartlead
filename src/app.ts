@@ -9,11 +9,11 @@ import helmet from 'helmet'
 
 import "express-async-errors"
 import swaggerUi from 'swagger-ui-express'
-
 import { errorHandler } from './middleware/errorHandler'
 import { appDataSource } from './orm/connection'
 import routes from './routes'
 import { apiDocumentation } from './docs'
+import path from 'path'
 
 appDataSource
   .initialize()
