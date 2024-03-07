@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "build": "tsc",
+    "start": "nodemon --watch '*.ts' --exec 'ts-node' ./src/index.ts",
     "dev": "nodemon --watch '*.ts' --exec 'ts-node' ./src/index.ts",
     "lint": "eslint src/**/*.ts --fix",
     "m:create": "npx typeorm-ts-node-esm migration:create",
